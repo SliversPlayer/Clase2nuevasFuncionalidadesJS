@@ -55,7 +55,7 @@ class ProductManager {
     getProductsById(id) {
         const product = this.products.find(product => product.id === id);
         if(!product){
-            console.log("Producto no encontrado.");
+            console.log(“Not found”);
             return;
         }
         //Para retornar el producto buscado.
